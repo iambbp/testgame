@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Play Monster Survivors - The ultimate survival RPG game online. Defeat waves of monsters, collect powerful relics, and survive as long as you can!">
+    <link rel="canonical" href="https://monstersurvivors.com/">
+    
+    <!-- Apple-style color scheme -->
+    <meta name="theme-color" content="#f5f5f7">
+    
+    <title>Monster Survivors - Online Survival RPG Game</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .game-iframe {
+            aspect-ratio: 16/9;
+            background: #f5f5f7;
+            border-radius: 18px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        @media (max-width: 768px) {
+            .game-iframe {
+                aspect-ratio: 9/16;
+            }
+        }
+    </style>
+</head>
+<body class="bg-[#f5f5f7] text-[#1d1d1f] font-sans antialiased">
+    <main class="container mx-auto px-4 py-8 max-w-4xl">
+        <!-- Header Section -->
+        <header class="mb-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-4 bg-gradient-to-r from-[#0a84ff] to-[#5e5ce6] bg-clip-text text-transparent">
+                Monster Survivors
+            </h1>
+            <p class="text-xl text-[#86868b] mb-6">
+                Survive the monster apocalypse in this thrilling action RPG!
+            </p>
+        </header>
+
+        <!-- Game Frame -->
+        <section class="mb-12">
+            <div class="game-iframe overflow-hidden">
+                <iframe 
+                    src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" 
+                    class="w-full h-full"
+                    allow="fullscreen"
+                    loading="eager"
+                    title="Monster Survivors Online Game">
+                </iframe>
+            </div>
+        </section>
+
+        <!-- Game Description -->
+        <article class="space-y-8">
+            <section>
+                <h2 class="text-2xl font-semibold mb-4 text-[#1d1d1f]">About The Game</h2>
+                <p class="text-[#515154] leading-relaxed">
+                    Monster Survivors is an action-packed survival RPG where players face endless waves of terrifying creatures. Collect ancient relics, upgrade your abilities, and team up with other survivors in this browser-based multiplayer adventure.
+                </p>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-semibold mb-4 text-[#1d1d1f]">Game Features</h2>
+                <ul class="list-disc pl-6 text-[#515154] space-y-2">
+                    <li>Real-time multiplayer battles</li>
+                    <li>Over 50 unique monster types</li>
+                    <li>Dynamic skill tree system</li>
+                    <li>Cross-platform progression</li>
+                    <li>Daily challenges & events</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-semibold mb-4 text-[#1d1d1f]">How To Play</h2>
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <p class="text-[#515154]">
+                        Use <kbd class="px-2 py-1 bg-gray-100 rounded">WASD</kbd> to move and <kbd class="px-2 py-1 bg-gray-100 rounded">Mouse</kbd> to aim. Collect power-ups to enhance your abilities and survive as long as possible!
+                    </p>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-[#d2d2d7] mt-12 py-8 text-center">
+        <p class="text-[#86868b] text-sm">
+            © 2023 MonsterSurvivors.com - Browser-based Survival RPG Game. All rights reserved.
+        </p>
+    </footer>
+</body>
+</html>
